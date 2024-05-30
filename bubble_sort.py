@@ -1,7 +1,7 @@
 def bubble_sort(arr):
     n=len(arr)
     print("array length:",n)
-    for i in range(n):
+    for i in range(n):#traverse through all elements in the array
         swapped=False#flag to check if any swapping happened
         for j in range(0,n-i-1):#last i element are already in place
             if arr[j] > arr[j+1]:
